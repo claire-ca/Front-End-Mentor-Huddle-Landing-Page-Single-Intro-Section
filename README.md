@@ -1,2 +1,2 @@
-# frontend-mentor-newbie-challenge-2
+# Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section
  Huddle landing page with single introductory section
