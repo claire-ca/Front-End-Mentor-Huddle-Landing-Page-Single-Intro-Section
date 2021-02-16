@@ -1,0 +1,160 @@
+/* line 13, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 18, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 21, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+body {
+  background-color: #674baf;
+  background-image: url("../images/bg-mobile.svg");
+  background-size: 100vw 50vh;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* line 31, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* line 35, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+header {
+  text-align: left;
+}
+
+/* line 38, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+.mockup-bg-img {
+  width: 18.5rem;
+  max-width: 100%;
+  height: 13.0625rem;
+  background-image: url("../images/illustration-mockups.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+/* line 47, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+.logo {
+  margin-top: 2.375rem;
+  margin-bottom: 4.1875rem;
+  width: 7.5rem;
+}
+
+/* line 52, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 4.1875rem;
+}
+
+/* line 59, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+.submit-btn {
+  padding: 0.875rem 4.6875rem;
+  border-radius: 3.125rem;
+  border: none;
+  box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.269);
+  color: #674baf;
+  font-size: 0.75rem;
+  margin-top: 1.875rem;
+  margin-bottom: 4rem;
+  transition: background-color ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+/* line 70, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+.submit-btn:hover {
+  background-color: #E880E8;
+  color: #fff;
+}
+
+/* line 75, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+footer a {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+  transition: color ease-in-out 0.2s;
+}
+
+/* line 86, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+footer a:not(:last-child) {
+  margin-right: 0.625rem;
+}
+
+/* line 89, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+footer a:hover {
+  color: #FF52C1;
+  border-color: #FF52C1;
+}
+
+@media screen and (min-width: 90rem) {
+  /* line 95, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  body {
+    background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  /* line 102, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  .mockup-bg-img {
+    width: 43.5rem;
+    height: 30.8125rem;
+  }
+  /* line 106, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  .logo {
+    width: 12.5rem;
+  }
+  /* line 109, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  .title {
+    font-size: 2.5rem;
+  }
+  /* line 112, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  .main-info p,
+  .submit-btn {
+    font-size: 1.125rem;
+  }
+  /* line 116, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 121, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  .main-info {
+    text-align: left;
+    margin-left: 3.6875rem;
+  }
+  /* line 125, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 128, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  footer a {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
