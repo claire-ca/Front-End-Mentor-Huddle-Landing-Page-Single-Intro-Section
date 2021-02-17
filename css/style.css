@@ -128,29 +128,30 @@ footer a:hover {
   /* line 111, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
   .title {
     font-size: 2.5rem;
+    margin-top: 2.875rem;
   }
-  /* line 114, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  /* line 115, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
   .main-info p,
   .submit-btn {
     font-size: 1.125rem;
   }
-  /* line 118, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  /* line 119, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
   main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  /* line 123, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  /* line 124, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
   .main-info {
     text-align: left;
     margin-left: 3.6875rem;
   }
-  /* line 127, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  /* line 128, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
   footer {
     display: flex;
     justify-content: flex-end;
   }
-  /* line 130, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
+  /* line 131, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Huddle-Landing-Page-Single-Intro-Section/scss/style.scss */
   footer a {
     width: 2.5rem;
     height: 2.5rem;
